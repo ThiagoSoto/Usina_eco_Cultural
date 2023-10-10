@@ -12,7 +12,8 @@ body{
 }
 .titulo{
     margin-left: 1em;
-    color: #ECECEC;;
+    color: #ECECEC;
+    font-size: 2em;
 }
 
 .searching{
@@ -128,4 +129,21 @@ nav ul li:hover > ul li {
 }
 .indicadores .indicator.active {
     background-color: #333;
+}
+
+/* PARTE DO MEIO */
+.mid-part{
+    font-size: 3em;
+    background-color: #3A90C3;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1.5em;
+}
+.tema-titulo{
+    font-size: 2.5em;
+    margin: 1em
+}
+.temas{
+    display: flex;
+    text-align: start;
 }
