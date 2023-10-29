@@ -91,46 +91,83 @@ nav ul li:hover > ul li {
     display: block;
 }
 /* BANNERS */
-.banners-menu{
-    margin-top: 0.2em;
-    position: relative;
+section.slider{
+    margin: 0 auto;
     width: 100%;
-    height: 40em;
+    height: auto;
+    padding: 0 !important;
     overflow: hidden;
-}
-.banners{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    overflow: hidden;
-}
-.banners img {
-    width: 100%;
-    height: 100%;
-    display: none;
-}
-.banners a{
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-.indicadores{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-.indicadores .indicator {
-    width: 10px;
-    height: 10px;
-    background-color: #ccc;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-.indicadores .indicator.active {
-    background-color: #333;
 }
 
+.slider-content{
+    width: 400%;
+    height: 48rem;
+    display: flex;
+
+}
+
+.slider-content input{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slider-content img{
+    width: 100%;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 37%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: blue;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+    background-color: blue;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+    background-color: blue;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+    background-color: blue;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
 /* PARTE DO MEIO */
 .mid-part{
     font-size: 3em;
