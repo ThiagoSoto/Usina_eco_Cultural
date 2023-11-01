@@ -13,7 +13,8 @@ body{
 .titulo{
     margin-left: 1em;
     color: #ECECEC;
-    font-size: 2em;
+    font-size: 1em;
+    text-decoration: none;
 }
 
 .searching{
@@ -196,10 +197,8 @@ section.slider{
     display: flex;
     justify-content: center;
 }
-.img_apoio{
-    display: flex;
-    align-items: center;
-}
+
+
 /* FOOTER */
 
 footer{

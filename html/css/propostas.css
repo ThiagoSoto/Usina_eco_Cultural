@@ -1,0 +1,112 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ECECEC;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #EA8356;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+}
+.titulo{
+    margin-left: 1em;
+    color: #ECECEC;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.searching{
+    border: 1px solid #ECECEC;
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+
+form input, form button{
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button{
+    cursor: pointer;
+    background: none;
+}
+form button:hover{
+    cursor: pointer;
+    background-color: #69A625;
+    color: #EA8356;
+}
+.social-media{
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+    margin-right: 1em;
+    
+}
+/* MENU */
+/* ========================================================================================================== */ 
+
+.menu{
+    background-color: #69A625;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-usina{
+    border-radius: 50%;
+    height: 8em;
+    margin-left: 1em;
+}
+.topics{
+    display: flex;
+    gap: 6em;
+    list-style-type: none;
+    font-size: 1.4em!important;
+    margin-right: 1em;
+    padding: 0;
+}
+
+.topics a{
+    text-decoration: none;
+    color: #ECECEC;
+    font-weight: bold;
+}
+.main-topics:hover{
+    background-color: #3A90C3;
+    color: #ECECEC;
+}
+.subtopics{
+    list-style-type: none;
+    font: 0.75em!important;
+}
+.sublinks{
+    font-weight: normal;
+    float:none;
+    display: none;
+}
+
+nav ul li:hover > ul li {
+    display: block;
+}
+/* PROPOSTAS */
+.titulo-propostas{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+.background-proposta{
+    background-color: #3A90C3;
+    padding: 1rem;
+}
+.propostas{
+    justify-content: space-around;
+}
+
+.imagem-proposta{
+    max-width: 100%;
+    height: auto;
+}
