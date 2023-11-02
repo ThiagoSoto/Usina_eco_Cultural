@@ -110,3 +110,6 @@ nav ul li:hover > ul li {
     max-width: 100%;
     height: auto;
 }
+p{
+    text-align: justify;
+}
