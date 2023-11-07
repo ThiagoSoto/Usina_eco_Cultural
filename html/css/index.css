@@ -197,7 +197,15 @@ section.slider{
     display: flex;
     justify-content: center;
 }
-
+ /* PERGUNTAS */
+ .perguntas{
+    font-size: 2rem;
+    background-color: #ccc;
+    margin-bottom: 1rem;
+ }
+ .texto-pergunta{
+    font-size: 1rem;
+}
 
 /* FOOTER */
 
