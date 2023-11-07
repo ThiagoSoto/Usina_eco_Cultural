@@ -237,13 +237,15 @@ footer{
     list-style-type: none;
     color: #ECECEC;
     text-decoration: none;
-    margin-left: 4rem;
+
+    margin-left: 2rem;
 }
 .footer-subtopics2{
     list-style-type: none;
     color: #ECECEC;
     text-decoration: none;
-    margin-left: 6rem;
+
+    margin-right: 2rem;
 }
 .footer-align{
     display: flex;
@@ -257,7 +259,4 @@ footer{
 .copyright{
     display: flex;
     justify-content: center;
-}
-.ajuste-loja{
-    margin-right: 10rem;
 }

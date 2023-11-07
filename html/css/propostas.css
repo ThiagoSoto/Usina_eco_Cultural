@@ -114,20 +114,3 @@ p{
     text-align: justify;
 }
 
-/* FOOTER */
-footer{
-    display: block;
-    background-color: #69A625;
-}
-.footer-align{
-    display: flex;
-}
-.cores{
-    border: 1px solid  black;
-}
-.footer-esquerda{
-    float: left;
-}
-.footer_direita{
-    float: right;
-}
