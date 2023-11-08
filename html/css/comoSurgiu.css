@@ -1,0 +1,155 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ECECEC;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #EA8356;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+}
+.titulo{
+    margin-left: 1em;
+    color: #ECECEC;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.searching{
+    border: 1px solid #ECECEC;
+    border-radius: 0.5em;
+    padding: 0.3em;
+}
+
+form input, form button{
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button{
+    cursor: pointer;
+    background: none;
+}
+form button:hover{
+    cursor: pointer;
+    background-color: #69A625;
+    color: #EA8356;
+}
+.social-media{
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+    margin-right: 1em;
+    
+}
+/* MENU */
+/* ========================================================================================================== */ 
+
+.menu{
+    background-color: #69A625;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-usina{
+    border-radius: 50%;
+    height: 8em;
+    margin-left: 1em;
+}
+.topics{
+    display: flex;
+    gap: 6em;
+    list-style-type: none;
+    font-size: 1.4em!important;
+    margin-right: 1em;
+    padding: 0;
+}
+
+.topics a{
+    text-decoration: none;
+    color: #ECECEC;
+    font-weight: bold;
+}
+.main-topics:hover{
+    background-color: #3A90C3;
+    color: #ECECEC;
+}
+.subtopics{
+    list-style-type: none;
+    font: 0.75em!important;
+}
+.sublinks{
+    font-weight: normal;
+    float:none;
+    display: none;
+}
+
+nav ul li:hover > ul li {
+    display: block;
+}
+/* Parte do Meio*/
+.mid-part{
+    font-size: 3em;
+    background-color: #3A90C3;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1.5em;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #69A625;
+}
+
+.footer-topics{
+    text-decoration: none;
+    color: #ECECEC;
+    border-bottom: 0.2em solid #ccc;
+    align-items: center;
+}
+.footer-topics1{
+    text-decoration: none;
+    color: #ECECEC;
+    border-bottom: 0.2em solid #ccc;
+    align-items: center;
+    margin-left: 2.8rem;
+}
+.footer-topics2{
+    text-decoration: none;
+    color: #ECECEC;
+    border-bottom: 0.2em solid #ccc;
+    align-items: center;
+    margin-left: 7rem;
+}
+.footer-subtopics1{
+    list-style-type: none;
+    color: #ECECEC;
+    text-decoration: none;
+
+    margin-left: 2rem;
+}
+.footer-subtopics2{
+    list-style-type: none;
+    color: #ECECEC;
+    text-decoration: none;
+
+    margin-right: 2rem;
+}
+.footer-align{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-subtopics{
+    list-style-type: none;
+    color: #ECECEC;
+    text-decoration: none;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
