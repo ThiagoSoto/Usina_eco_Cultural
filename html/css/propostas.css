@@ -92,15 +92,12 @@ nav ul li:hover > ul li {
     display: block;
 }
 /* PROPOSTAS */
-.titulo-propostas{
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-
-}
-.background-proposta{
+.mid-part{
+    font-size: 2em;
     background-color: #3A90C3;
-    padding: 1rem;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1.5em;
 }
 .propostas{
     justify-content: space-around;
